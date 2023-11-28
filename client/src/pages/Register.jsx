@@ -31,7 +31,10 @@ const Register = () => {
         const { metaData } = data.data;
         const action = login(metaData.metaData.shop);
         dispatch(action);
-        localStorage.setItem("userInfo", metaData.metaData.shop);
+        localStorage.setItem(
+          "userInfo",
+          JSON.stringify(metaData.metaData.shop)
+        );
         localStorage.setItem(
           "accessToken",
           JSON.stringify(metaData.metaData.tokens.accessToken)
