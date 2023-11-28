@@ -16,7 +16,7 @@ const Footer = () => {
           <Col md={3} sm={5} className="box">
             <div className="logo">
               <ion-icon name="bag"></ion-icon>
-              <h1>Multimart</h1>
+              <h1>Bookstore</h1>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
