@@ -48,7 +48,7 @@ const Login = () => {
         if (metaData.metaData.shop.roles[0] == "ADMIN") {
           navigate("/admin");
         } else {
-          navigate("/");
+          navigate("/")
         }
       } catch (error) {
         console.log("error", error);
